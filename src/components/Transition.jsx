@@ -5,6 +5,7 @@ const Transition = () => {
 
     const [isPending,startTransition] = useTransition();
     const [user,setuser] = useState([]);
+    // Add Transition State
 
     const handleClick = async()=>{
         // setIspendig(true);
